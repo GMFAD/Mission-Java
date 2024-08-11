@@ -1,5 +1,7 @@
 # Mission-Java
-$\color{red}\textsf{\Large\&#x26A0;\kern{0.2cm}\normalsize Warning: This is my personal project of learning JAVA. So don't bother me.}$
+
+<strong>&#x26A0; Warning: This is my personal project for learning Java. So don't bother me.</strong>
+<br>
 
 <details>
 <summary>Starting code of a java file</summary>
