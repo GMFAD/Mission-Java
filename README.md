@@ -7,12 +7,15 @@
 <summary>Starting code of a java file</summary>
   
 ```java
+
 public class Main{
   public static void main(String[] args){
 
   }
 }
+
 ```
+</details>
   <details>
   <summary>explanation</summary>
   <img src="images/starting_code_explaination.png" alt="Data Types" style="display: block; margin: 0 auto;">
@@ -38,7 +41,36 @@ public class Main{
 <h3>Learning Progress:</h3>
 
 <details>
-  <summary>start from here</summary>
+  <summary>Different types of "Variables" 1</summary>
+1. Primitive types, to store simple values<br>
+  <img src="images/" alt="Data Types" style="display: block; margin: 0 auto;"><br>
+  <details> <summary>example:</summary>
+    
+```java
 
+public class Main {
+  public static void main(String[] args) {
 
+    int age = 30
+
+  }
+}
+
+```
+</details>
+
+2. Reference types, to store complex objects<br>
+  
+  <details> <summary>example:</summary>
+    
+```java
+
+public class Main {
+  public static void main(String[] args) {
+    Date now = new Date();
+    now.getTime();
+  }
+}
+
+```
 </details>
