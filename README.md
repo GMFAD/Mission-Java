@@ -15,7 +15,6 @@ public class Main{
 }
 
 ```
-</details>
   <details>
   <summary>explanation</summary>
   <img src="images/starting_code_explaination.png" alt="Data Types" style="display: block; margin: 0 auto;">
