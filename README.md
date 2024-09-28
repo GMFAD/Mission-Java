@@ -42,7 +42,7 @@ public class Main{
 <details>
   <summary>Different types of "Variables" 1</summary>
 1. Primitive types, to store simple values<br>
-  <img src="images/" alt="Data Types" style="display: block; margin: 0 auto;"><br>
+  <img src="images/data_types.jpg" alt="Data Types" style="display: block; margin: 0 auto;"><br>
   <details> <summary>example:</summary>
     
 ```java
