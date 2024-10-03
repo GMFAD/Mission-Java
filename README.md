@@ -41,8 +41,20 @@ public class Main{
 <details>
   <summary>Variables</summary>
   There are 2 types of variables, Primitive types and Reference types.
-  <br>
 
+  Primitive type example: 
+
+  ```java
+  int name = 60;
+  ```
+
+Reference type example: 
+
+```java
+Date name = new Date();
+```
+
+  <br>
   <div>
     <table>
       <thead>
