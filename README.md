@@ -29,7 +29,7 @@ public class Main{
      *If the function does not return anything, the return type will be "void".
   6. Name of the function.(could be anything) <br>
      *Every java code should have at least on function/method "main".
-  7. Parentheses(প্রথম বন্ধনী): Used to add parameters for the function, parameters to pass values to the function. Like how to do execute the function.
+  7. Parameters for the function, Parameters used to pass values to the function. Like how to do execute the function.
   8. Pair of curly braces. Inside these curls braces we write out actual java code.
   9. "String[] args" - ...
   </details>
