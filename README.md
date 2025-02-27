@@ -20,8 +20,7 @@ public class Main{
   <br>
 
   1. All classes and functions/methods have an access modifier. Access modifier determines if other classes and methods can access this class or method. ex: public, private...
-  2. What type of value will the function return, like: a number, true or false etc... <br>
-     *If the function does not return anything, the return type will be "void".
+  2. ...
   3. Name of the class. <br>
      *Every function needs to be inside of a class called "Main".
   4. ...
