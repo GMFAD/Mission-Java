@@ -44,13 +44,13 @@ public class Main{
   Primitive type example: 
 
   ```java
-  int name = 60;
+  int value = 60;
   ```
 
 Reference type example: 
 
 ```java
-Date name = new Date();
+Date value = new Date();
 ```
 
   <br>
