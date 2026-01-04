@@ -4,13 +4,9 @@ import java.text.NumberFormat;
 public class mortgageCalculator {
 	public static void main(String[] args) {
 
-		int p;
-        float annualInterest;
-        byte years;		
-
-		p = (int) readNumber("Principal: ", 1000, 1_000_000);
-		annualInterest = (float) readNumber("Annual Interest Rate: ", 1, 30);
-		years = (byte) readNumber("Period (Years): ", 1, 30);
+		int p = (int) readNumber("Principal: ", 1000, 1_000_000);
+		float annualInterest = (float) readNumber("Annual Interest Rate: ", 1, 30);
+		byte years = (byte) readNumber("Period (Years): ", 1, 30);
 
         double mortgage = calculatedMortgage(p, annualInterest, years);
 
