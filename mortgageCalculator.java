@@ -15,13 +15,21 @@ public class mortgageCalculator {
 		annualInterest = (float) readNumber("Annual Interest Rate: ", 1, 30);
 		years = (byte) readNumber("Period (Years): ", 1, 30);
 
-        double mortgage = calculatedMortgage(p, annualInterest, years);
+        printMortgage(p, annualInterest, years);
+
+		printPaymentScedule(p, annualInterest, years);
+	}
+
+	private static void printMortgage(int p, float annualInterest, byte years) {
+		double mortgage = calculatedMortgage(p, annualInterest, years);
 
 		String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
 
-		System.out.println("MORTGAGE \n--------");
+		System.out.println("\nMORTGAGE \n--------");
 		System.out.println("Monthly payments: " + mortgageFormatted);
+	}
 
+	private static void printPaymentScedule(int p, float annualInterest, byte years) {
 		System.out.println("\nPAYMENTS SCHEDULE \n-----------------");
 		for(short month = 1; month <= years * MONTHS_IN_YEAR; month++) {
 			double balance = calculatedBalance(p, annualInterest, years, month);
